@@ -70,7 +70,7 @@ h1, h2, h3 {
 E = 3
 N = 55
 
-MENSAGEM_CIFRADA = "8Q"
+MENSAGEM_CIFRADA = "0x08 0x11"
 
 SENHA_CORRETA = "B8"
 
@@ -110,8 +110,8 @@ st.warning(
 )
 
 st.write(
-    "Você recebeu apenas a chave pública e a mensagem cifrada. "
-    "Use seus conhecimentos de RSA para descobrir a senha."
+    "Você recebeu apenas a chave pública e a mensagem cifrada em hexadecimal. "
+    "Use seus conhecimentos de RSA para descobrir a senha que pode conter números e letras."
 )
 
 # =====================================================
