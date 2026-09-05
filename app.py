@@ -135,7 +135,7 @@ with col2:
     st.markdown("**Mensagem Cifrada:**")
 
     st.code(
-        "8Q",
+        "0x08 0x11",
         language=None
     )
 
